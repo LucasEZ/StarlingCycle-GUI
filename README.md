@@ -58,6 +58,11 @@ The first step is to load the csv or xlsx file with the experimental data. Befor
 The data inside the file will be displayed in a top panel and also a configuration panel will be generated, where you can set up the fit parameters. The equation field follows the same instructions as the Plotter. The adjustment variables can be written as nx inside the equation(ex. n1, n2, n3). The Seed values ​​must be  introduced separated by commas. If you add less seed values than variables, the rest of the variables will take 1 as seed value. 
 The range of x and y must be equal in size. There are two types of data allowed: "values" ​​or "datetime". If ‘values' ​​is taken, the column can be set to "int" or "float" by typing int or float. if "datetime" is taken, you can type the format you want in the empty field next to this one (see datetime formats in https://docs.python.org/3/library/datetime.html).
 
+![Image text](example3.png)
+
+# Machine learning algorithm
+
+It is still in development.
 
 
 

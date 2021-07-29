@@ -20,7 +20,7 @@ This is a GUI developed in python and Tkinter where you can plot any functions y
 # Plotter Instruction
 To open the plotter main window press the first button on the button bar. It will show you the following work window
 
-![Image text](https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg)
+![Image text](https://github.com/)
 
 
 

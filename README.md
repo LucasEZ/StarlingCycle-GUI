@@ -42,7 +42,7 @@ Remember the following rules when you introduce an equation:
 | pi  | Pi number |
 | pe  | Euler's number |
 
-The xi, xf, yi, yf fields allow you to set the extreme values of the axes of your plot. If you don't complete them, the default values will be from 0 to 100. if yi is equal to yf, the y-axis scale will be adjusted automatically. The frec field represents the number of samples to generate in the range [xi,xf]. The default value will be 100. 
+The xi, xf, yi, yf fields allow you to set the extreme values of the axes of your plot. If you don't complete them, the default values will be from 0 to 100. if yi is equal to yf, the y-axis scale will be adjusted automatically. The "frec" field represents the number of samples to generate in the range [xi,xf]. The default value will be 100. 
 
 In the "Style Plot" label frame you can configure the style plot (scatter or lineal), the color line and the name of the function. The default style plot is lineal and the default label is the equation. The color line doesn't have a default value, it will take a random color if you don't define it.
 Using the button "save", you can save any functions you want and then plot them all together in a single graph using the "graph" button. The following picture shows you an example.

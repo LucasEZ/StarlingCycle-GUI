@@ -42,7 +42,7 @@ class Function():
         
     def decodeEquation(self, eq):
         '''decodifica la equación y la re escribe en forma de código para ser interpretada.
-        El resultado se encuentra sobrescrito en la variable f.
+        Deveulve un string con formato interpretable por el interprete.
         '''
             
         simbols = {
@@ -118,7 +118,7 @@ class Function():
         return aux
     
     def chargeFitParameters(self, p, e):
-        '''Carda los parámetros de ajuste como atributos de clase'''
+        '''Carga los parámetros de ajuste como atributos de clase'''
         
         #parámetros de ajuste
         self.p = p
@@ -133,7 +133,7 @@ class Function():
     def replaceVariables(self):
         
         '''reemplaza las variables de la ecuación por los parámetros de ajuste cargados.
-        Se genera el atributo f.fit, un string con la equación fiteada'''
+        Se genera el atributo f.fit, un string con la equación parametrizada'''
         if self.chargeParm:
             f = self.f
             for e in zip(self.v, self.p):
